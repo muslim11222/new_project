@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+}
+
+.container {
+     width: 1250px;
+     margin: 10px auto;
+}
+
+.child_container {
+     width: 1070px;
+     margin: auto; 
+}
+
+
+.image {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     
+}
+
+.child_container ul {
+     display: flex;
+     margin-left: 180px;
+}
+
+.child_container ul li {
+    margin-right: 30px;
+    list-style: none;
+    font-size: 12px;
+}
+
+.child_container ul li a {
+     text-decoration: none;
+     color: #222;
+}
+
+.child_container ul li a:hover,
+.active {
+     border-bottom: 2px solid red;
+     padding: 2px;
+}
+
+.child_container img {
+     width: 165px;
+     height: 41.29px;
+}
+
+button {
+     width: 146px;
+     height: 36px;
+     font-size: 10px;
+     font-weight: bold;
+     background: #DD3142;
+     border: none;
+     border-radius: 3px;
+     color: #fff;
+     cursor: pointer;
+}
+
+/* Hero Section */
+.hero_section {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 50px;
+     align-items: center;
+}
+
+.hero_section h1 {
+     font-size: 40px;
+     font-weight: bold;
+     color: #222;
+     text-transform: uppercase;
+}
+.hero_section h2{
+     font-weight: 500;
+     font-size: 40px;
+     text-transform: uppercase;
+}
+
+.hero_section h3 {
+     font-size: 34px;
+     color: #222;
+     font-weight: bold;
+     margin-top: 20px;
+}
+
+.image_area {
+     margin-left: 50px;
+}
+
+.image_area img {
+     width: 600px;
+     height: 436px;
+}
+
+.button {
+     color: #fff;
+     text-transform: uppercase;
+     width: 150px;
+     height: 40px;
+     border-radius: 50px;
+     margin-top: 30px;
+     background: #DD3142;
+     border: none;
+}
+
+/* Full width container */
+.main_container_area {
+     width: 1250px;
+     background: #DD3142;
+}
+
+.grid_area {
+     width: 1070px;
+     margin: auto;
+     
+}
